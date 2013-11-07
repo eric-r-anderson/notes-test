@@ -1,5 +1,14 @@
-This repository is a single document:
+This repository is all about the text file:
+GitNotes.txt
+
+It contains notes on Git and I'm using it to familiarize myself with using Git and GitHub.
+
+Originally started this with a open document file:
+
 NotesTest.odt
 
-It contains notes on Git and I'm using it to familiarize myself with using Git.
+but ran into difficulties with merging, and since the point of this excercise
+is to learn git commands, I decided not to struggle with figuring out how to 
+diff and merge this other type of document.  Now I'm sticking with the simple 
+text file GitNotes.txt
 
