@@ -1,0 +1,7 @@
+Git Notes
+
+Introduction
+This is the original introduction.
+
+Conclusion
+This is the original conclusion.
