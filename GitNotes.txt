@@ -1,7 +1,40 @@
 Git Notes
 
 Introduction
-This is the original introduction.
+Getting Started shows steps to create a repository for this document, and an
+initial commit and push.  The repository name is notes-test.  
+
+Getting Started
+Create and configure github account following instructions online (not given here).
+To create the repository  notes-test for this document:
+
+Go to the directory ~/.../notes-test and do:
+git init
+
+Create a file:
+touch README  
+# creates README
+
+Commit:
+git add README
+# Stages README, adding it to the list of files to be committed
+git commit -m 'first commit'
+# Commits files, adding the message "first commit"
+
+If you modified several files, but have created no new files, you can do:
+git commit -a
+# stages any modifed (but not new) files
+
+Multi-line commit message
+git commit -m 'commit title
+
+commit description'
+
+Push:
+git remote add origin https://github.com/eric-r-anderson/notes-test.git
+# create remote named "origin" pointing at your repo
+git push origin master
+# sends your commits in the "master" branch to GitHub
 
 Conclusion
 This is the original conclusion.
