@@ -2,7 +2,8 @@ Git Notes
 
 Introduction
 Getting Started shows steps to create a repository for this document, and an
-initial commit and push.  The repository name is notes-test.  
+initial commit and push.  The repository name is notes-test.  Branching tells 
+how to create a branch, switch between branches, and merge.
 
 Getting Started
 Create and configure github account following instructions online (not given here).
@@ -35,6 +36,29 @@ git remote add origin https://github.com/eric-r-anderson/notes-test.git
 # create remote named "origin" pointing at your repo
 git push origin master
 # sends your commits in the "master" branch to GitHub
+
+Branching
+git checkout -b branch-for-branch 
+# Creates a new branch called "branch-for-branch" and makes it the active branch
+
+Make some changes now that won't effect the master branch.
+Use checkout to switch between branches.
+
+git push origin branch-for-branch
+# push changes to branch-for-branch, and make branch-for-branch show up  on GitHub
+
+Merge the changes into the master branch:
+git checkout master 
+# Makes "master" the active branch 
+git merge branch-for-branch 
+# Merges the commits from "branch-for-branch" into "master" 
+git branch -d branch-for-branch 
+# Deletes the "branch-for-branch " branch
+
+git push origin --delete branch-for-branch
+# delete the remote branch
+
+
 
 Conclusion
 This is the original conclusion.
