@@ -1,0 +1,7 @@
+Git Glossary
+
+remote: A remote is a repository stored on another computer, often on GitHub's 
+server. It is standard practice (and also the default when you clone a 
+repository) to give the name origin to the remote that points to your main 
+offsite repository (for example, your GitHub repository).
+Git supports multiple remotes. This is commonly used when forking a repository.
