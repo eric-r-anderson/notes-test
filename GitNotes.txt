@@ -1,11 +1,11 @@
 Git Notes
 
-Introduction
+*** Introduction ***
 Getting Started shows steps to create a repository for this document, and an
 initial commit and push.  The repository name is notes-test.  Branching tells 
 how to create a branch, switch between branches, and merge.
 
-Getting Started
+*** Getting Started ***
 Create and configure github account following instructions online (not given here).
 To create the repository  notes-test for this document:
 
@@ -15,6 +15,8 @@ git init
 Create a file:
 touch README  
 # creates README
+
+*** Common Commands  ***
 
 Commit:
 git add README
@@ -59,6 +61,3 @@ git push origin --delete branch-for-branch
 # delete the remote branch
 
 
-
-Conclusion
-This is the original conclusion.
